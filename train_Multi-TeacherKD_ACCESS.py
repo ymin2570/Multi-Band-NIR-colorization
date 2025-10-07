@@ -49,7 +49,6 @@ dataloader = DataLoader(dataset=train_data, batch_size=opt.batch_size, shuffle=T
 
 device = "cuda"
 
-# channel 수 수정
 detail_teacher = UNetKDPhase(in_ch=4, out_ch=1, bilinear=False).cuda()
 detail_teacher = torch.nn.DataParallel(detail_teacher)
 color_teacher = UNetKD(in_ch=6, out_ch=3, bilinear=False).cuda()
@@ -101,7 +100,7 @@ if os.path.isfile(net_path):
 for epoch in range(opt.epoch_count, opt.niter + opt.niter_decay + 1):
     # train
     for param_group in optimizer.param_groups:
-        print('학습률: ', param_group['lr'])
+        print('learning rate: ', param_group['lr'])
 
     loss_epoch = 0
 
