@@ -3,6 +3,6 @@ This repository contains the official code for our paper, "Multi-Band NIR Colori
 
 Please check the link below to find our proposed dataset.
 
-laboratory dataset : https://drive.google.com/drive/folders/12-VcFkpLYMI889YMS3kUe-mlW4HbI6Fj?usp=drive_link
+laboratory dataset : https://drive.google.com/file/d/1Ne4Ja5Rf9n0zxRJIU-N_DJmBvj6ZrmP_/view?usp=drive_link
 
-outdoor dataset : https://drive.google.com/drive/folders/1WhR19T7hVFSyAT9ltRtqjIUBhcRq3_oB?usp=drive_link
+outdoor dataset : https://drive.google.com/file/d/16J4yrOWxfhZfFKwyH_fLIycgSIEBxMwt/view?usp=drive_link
